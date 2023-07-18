@@ -1,2 +1,3 @@
 /fpl-scraper-venv
 *.csv
+*.pyc
