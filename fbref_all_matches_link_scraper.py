@@ -47,4 +47,16 @@ def get_matches_info(soup):
     for col in col_names:
         df[f"{col}_uid"] = df[f"{col}"].apply(lambda x: x.split("/")[3] if x is not None else None)
 
-    return df
+    # Drop rows where the first cell (index 0) contains "Wk"
+    df = df[~df.iloc[:, 0].str.contains('Wk', na=False)]
+
+    # Strip whitespace from each cell
+    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+    df.replace('', None, inplace=True)
+
+    # Drop rows with all empty or None values
+    new_df = df.dropna(how='all').reset_index(drop=True)
+    new_df.fillna('', inplace=True)
+
+    return new_df
