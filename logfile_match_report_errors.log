@@ -1,0 +1,125 @@
+INFO:success:Page 4a87012d scraped successfully. Total pages scraped: 287/380 (75.53%)
+INFO:success:Page 0ba42648 scraped successfully. Total pages scraped: 288/380 (75.79%)
+INFO:success:Page 68cd68fd scraped successfully. Total pages scraped: 289/380 (76.05%)
+INFO:success:Page 72ca7930 scraped successfully. Total pages scraped: 290/380 (76.32%)
+INFO:success:Page a5e78e89 scraped successfully. Total pages scraped: 291/380 (76.58%)
+INFO:success:Page aa1fa8dc scraped successfully. Total pages scraped: 292/380 (76.84%)
+INFO:success:Page b3ad7bd4 scraped successfully. Total pages scraped: 293/380 (77.11%)
+INFO:success:Page fb045117 scraped successfully. Total pages scraped: 294/380 (77.37%)
+INFO:success:Page a1c39217 scraped successfully. Total pages scraped: 295/380 (77.63%)
+INFO:success:Page f3774baa scraped successfully. Total pages scraped: 296/380 (77.89%)
+INFO:success:Page 7bbac622 scraped successfully. Total pages scraped: 297/380 (78.16%)
+INFO:success:Page 18e7d354 scraped successfully. Total pages scraped: 298/380 (78.42%)
+INFO:success:Page 67f47a1b scraped successfully. Total pages scraped: 299/380 (78.68%)
+INFO:success:Page b2402736 scraped successfully. Total pages scraped: 300/380 (78.95%)
+INFO:success:Page bfc49d95 scraped successfully. Total pages scraped: 301/380 (79.21%)
+INFO:success:Page ecae749b scraped successfully. Total pages scraped: 302/380 (79.47%)
+INFO:success:Page ce8df388 scraped successfully. Total pages scraped: 303/380 (79.74%)
+INFO:success:Page 3120ba0d scraped successfully. Total pages scraped: 304/380 (80.00%)
+INFO:success:Page 4ca8f9f6 scraped successfully. Total pages scraped: 305/380 (80.26%)
+INFO:success:Page fd3d05f5 scraped successfully. Total pages scraped: 306/380 (80.53%)
+INFO:success:Page 12efc7dd scraped successfully. Total pages scraped: 307/380 (80.79%)
+INFO:success:Page f2d8700d scraped successfully. Total pages scraped: 308/380 (81.05%)
+INFO:success:Page 25f6dcd1 scraped successfully. Total pages scraped: 309/380 (81.32%)
+INFO:success:Page 2b51686a scraped successfully. Total pages scraped: 310/380 (81.58%)
+INFO:success:Page 99bfc321 scraped successfully. Total pages scraped: 311/380 (81.84%)
+INFO:success:Page b87e66b4 scraped successfully. Total pages scraped: 312/380 (82.11%)
+INFO:success:Page 3306d30f scraped successfully. Total pages scraped: 313/380 (82.37%)
+INFO:success:Page dff22d13 scraped successfully. Total pages scraped: 314/380 (82.63%)
+INFO:success:Page 825c78f1 scraped successfully. Total pages scraped: 315/380 (82.89%)
+INFO:success:Page 8b295a84 scraped successfully. Total pages scraped: 316/380 (83.16%)
+INFO:success:Page 56c70cf7 scraped successfully. Total pages scraped: 317/380 (83.42%)
+INFO:success:Page 76db2de1 scraped successfully. Total pages scraped: 318/380 (83.68%)
+INFO:success:Page 071b5820 scraped successfully. Total pages scraped: 319/380 (83.95%)
+INFO:success:Page f2f795ae scraped successfully. Total pages scraped: 320/380 (84.21%)
+INFO:success:Page 00a73645 scraped successfully. Total pages scraped: 321/380 (84.47%)
+INFO:success:Page 37a741a7 scraped successfully. Total pages scraped: 322/380 (84.74%)
+INFO:success:Page ccabe10f scraped successfully. Total pages scraped: 323/380 (85.00%)
+INFO:success:Page 8c9a5c5c scraped successfully. Total pages scraped: 324/380 (85.26%)
+INFO:success:Page 4ec72d3b scraped successfully. Total pages scraped: 325/380 (85.53%)
+INFO:success:Page 21f920e0 scraped successfully. Total pages scraped: 326/380 (85.79%)
+ERROR:root:An error occurred with match_uid 3aeacbaa: Message: timeout: Timed out receiving message from renderer: 298.612
+  (Session info: headless chrome=114.0.5735.198)
+Stacktrace:
+0   chromedriver                        0x0000000102ed26b8 chromedriver + 4937400
+1   chromedriver                        0x0000000102ec9b73 chromedriver + 4901747
+2   chromedriver                        0x0000000102a87616 chromedriver + 435734
+3   chromedriver                        0x0000000102a6eac9 chromedriver + 334537
+4   chromedriver                        0x0000000102a6e73c chromedriver + 333628
+5   chromedriver                        0x0000000102a6cfaa chromedriver + 327594
+6   chromedriver                        0x0000000102a6d4fc chromedriver + 328956
+7   chromedriver                        0x0000000102a7cb68 chromedriver + 392040
+8   chromedriver                        0x0000000102a7e612 chromedriver + 398866
+9   chromedriver                        0x0000000102a93784 chromedriver + 485252
+10  chromedriver                        0x0000000102a997db chromedriver + 509915
+11  chromedriver                        0x0000000102a6da42 chromedriver + 330306
+12  chromedriver                        0x0000000102a935d7 chromedriver + 484823
+13  chromedriver                        0x0000000102b0a0bc chromedriver + 970940
+14  chromedriver                        0x0000000102aeede3 chromedriver + 859619
+15  chromedriver                        0x0000000102abcd7f chromedriver + 654719
+16  chromedriver                        0x0000000102abe0de chromedriver + 659678
+17  chromedriver                        0x0000000102e8e2ad chromedriver + 4657837
+18  chromedriver                        0x0000000102e93130 chromedriver + 4677936
+19  chromedriver                        0x0000000102e99def chromedriver + 4705775
+20  chromedriver                        0x0000000102e9405a chromedriver + 4681818
+21  chromedriver                        0x0000000102e6692c chromedriver + 4495660
+22  chromedriver                        0x0000000102eb1838 chromedriver + 4802616
+23  chromedriver                        0x0000000102eb19b7 chromedriver + 4802999
+24  chromedriver                        0x0000000102ec299f chromedriver + 4872607
+25  libsystem_pthread.dylib             0x00007fff204718fc _pthread_start + 224
+26  libsystem_pthread.dylib             0x00007fff2046d443 thread_start + 15
+
+INFO:success:Page 08607696 scraped successfully. Total pages scraped: 327/380 (86.05%)
+INFO:success:Page 0b0733ce scraped successfully. Total pages scraped: 328/380 (86.32%)
+INFO:success:Page b16063b6 scraped successfully. Total pages scraped: 329/380 (86.58%)
+INFO:success:Page d4d0cb2a scraped successfully. Total pages scraped: 330/380 (86.84%)
+INFO:success:Page e07267b3 scraped successfully. Total pages scraped: 331/380 (87.11%)
+INFO:success:Page 95d2cc61 scraped successfully. Total pages scraped: 332/380 (87.37%)
+INFO:success:Page 2d551ff5 scraped successfully. Total pages scraped: 333/380 (87.63%)
+INFO:success:Page 24fb8eca scraped successfully. Total pages scraped: 334/380 (87.89%)
+INFO:success:Page fccab6ff scraped successfully. Total pages scraped: 335/380 (88.16%)
+INFO:success:Page 16209587 scraped successfully. Total pages scraped: 336/380 (88.42%)
+INFO:success:Page 0f1e1478 scraped successfully. Total pages scraped: 337/380 (88.68%)
+INFO:success:Page 217a7faf scraped successfully. Total pages scraped: 338/380 (88.95%)
+INFO:success:Page 6116824f scraped successfully. Total pages scraped: 339/380 (89.21%)
+INFO:success:Page 7ee695ea scraped successfully. Total pages scraped: 340/380 (89.47%)
+INFO:success:Page 6e2d1c8c scraped successfully. Total pages scraped: 341/380 (89.74%)
+INFO:success:Page 9bb3a778 scraped successfully. Total pages scraped: 342/380 (90.00%)
+INFO:success:Page 98f0c145 scraped successfully. Total pages scraped: 343/380 (90.26%)
+INFO:success:Page 9a5efecc scraped successfully. Total pages scraped: 344/380 (90.53%)
+INFO:success:Page bf8d9047 scraped successfully. Total pages scraped: 345/380 (90.79%)
+INFO:success:Page 23e7953f scraped successfully. Total pages scraped: 346/380 (91.05%)
+INFO:success:Page d63581e0 scraped successfully. Total pages scraped: 347/380 (91.32%)
+INFO:success:Page 362514ee scraped successfully. Total pages scraped: 348/380 (91.58%)
+INFO:success:Page 96ab0b45 scraped successfully. Total pages scraped: 349/380 (91.84%)
+INFO:success:Page a4ffd11f scraped successfully. Total pages scraped: 350/380 (92.11%)
+INFO:success:Page e05f67be scraped successfully. Total pages scraped: 351/380 (92.37%)
+INFO:success:Page f5d61382 scraped successfully. Total pages scraped: 352/380 (92.63%)
+INFO:success:Page 704aa0f3 scraped successfully. Total pages scraped: 353/380 (92.89%)
+INFO:success:Page 9a41c925 scraped successfully. Total pages scraped: 354/380 (93.16%)
+INFO:success:Page dc6fb985 scraped successfully. Total pages scraped: 355/380 (93.42%)
+INFO:success:Page 7dd0fbd7 scraped successfully. Total pages scraped: 356/380 (93.68%)
+INFO:success:Page e265430e scraped successfully. Total pages scraped: 357/380 (93.95%)
+INFO:success:Page 28ebbaf2 scraped successfully. Total pages scraped: 358/380 (94.21%)
+INFO:success:Page 72646bde scraped successfully. Total pages scraped: 359/380 (94.47%)
+INFO:success:Page 844f2c37 scraped successfully. Total pages scraped: 360/380 (94.74%)
+INFO:success:Page ec496eca scraped successfully. Total pages scraped: 361/380 (95.00%)
+INFO:success:Page ff2b58c3 scraped successfully. Total pages scraped: 362/380 (95.26%)
+INFO:success:Page 9a2ea2b3 scraped successfully. Total pages scraped: 363/380 (95.53%)
+INFO:success:Page 0359c7d5 scraped successfully. Total pages scraped: 364/380 (95.79%)
+INFO:success:Page 017addef scraped successfully. Total pages scraped: 365/380 (96.05%)
+INFO:success:Page 589e447b scraped successfully. Total pages scraped: 366/380 (96.32%)
+INFO:success:Page 807863d8 scraped successfully. Total pages scraped: 367/380 (96.58%)
+INFO:success:Page d4bee10d scraped successfully. Total pages scraped: 368/380 (96.84%)
+INFO:success:Page d2f2263d scraped successfully. Total pages scraped: 369/380 (97.11%)
+INFO:success:Page 181fd119 scraped successfully. Total pages scraped: 370/380 (97.37%)
+INFO:success:Page 4f7b1a0d scraped successfully. Total pages scraped: 371/380 (97.63%)
+INFO:success:Page 64823dc9 scraped successfully. Total pages scraped: 372/380 (97.89%)
+INFO:success:Page 71d5bd41 scraped successfully. Total pages scraped: 373/380 (98.16%)
+INFO:success:Page 8e5c6ea7 scraped successfully. Total pages scraped: 374/380 (98.42%)
+INFO:success:Page 94de848f scraped successfully. Total pages scraped: 375/380 (98.68%)
+INFO:success:Page a96c9915 scraped successfully. Total pages scraped: 376/380 (98.95%)
+INFO:success:Page ac0e65e2 scraped successfully. Total pages scraped: 377/380 (99.21%)
+INFO:success:Page c9c73ddd scraped successfully. Total pages scraped: 378/380 (99.47%)
+INFO:success:Page e7e969e9 scraped successfully. Total pages scraped: 379/380 (99.74%)
+INFO:success:Page 3306d30f scraped successfully. Total pages scraped: 380/380 (100.00%)
