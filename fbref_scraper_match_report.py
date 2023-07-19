@@ -217,6 +217,24 @@ def load_match_soup(url, driver, tag_id = "scorebox"):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     return soup
 
+def load_match_soup_combined(url, driver, tag_id="scorebox"):
+    driver.get(url)
+
+    # define a lambda function that will return True when all conditions are met
+    conditions_met = lambda d: (
+        EC.presence_of_element_located((By.CLASS_NAME, tag_id))(d) and 
+        len(d.find_elements(By.CSS_SELECTOR, "[id^='stats_'][id$='_summary']")) >= 2 and
+        len(d.find_elements(By.CSS_SELECTOR, "[id^='keeper_stats_']")) >= 2
+    )
+
+    # use WebDriverWait to wait until all conditions are met
+    WebDriverWait(driver, 10).until(conditions_met)
+
+    # create a Beautiful Soup object from the response content
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+    return soup
+
 
 def retrieve_match_soup_info_to_df(match_soup):
     team_uids = get_teams_playing_uids(match_soup)
