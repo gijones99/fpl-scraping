@@ -37,7 +37,7 @@ def load_outfield_perf_soup(uids, url, driver):
     wait.until(EC.presence_of_element_located((By.ID, f"stats_{uids[1]}_summary")))
 
     # create a Beautiful Soup object from the response content
-    soup = BeautifulSoup(DRIVER.page_source, 'html.parser')
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
     return soup
 
 def get_outfield_perf(team_uids, soup):
@@ -153,7 +153,7 @@ def load_keeper_perf_soup(uids, url, driver):
     wait.until(EC.presence_of_element_located((By.ID, f"keeper_stats_{uids[1]}")))
 
     # create a Beautiful Soup object from the response content
-    soup = BeautifulSoup(DRIVER.page_source, 'html.parser')
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
     return soup
 
 def get_keeper_perf(team_uids, soup):
