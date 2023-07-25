@@ -3,3 +3,4 @@
 *.pyc
 config.py
 to_pip_install_in_venv.txt
+config_local.py
