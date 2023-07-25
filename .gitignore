@@ -1,3 +1,5 @@
 /fpl-scraper-venv
 *.csv
 *.pyc
+config.py
+to_pip_install_in_venv.txt
