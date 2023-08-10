@@ -1,6 +1,10 @@
--- Matches where Ivan Toney played
+-- Define the parameter (user-defined variable)
+SET @player_name = 'Alex Moreno';
+SET @player_club = 'Aston Villa'; -- need to find a way to get the player's club uid
+
+-- Matches where Player played
 SELECT 
-    'With Ivan Toney' AS player_status,
+    'With Player' AS player_status,
     ROUND(AVG(o.xG), 2) AS avg_player_xG,
     ROUND(AVG(IF(o.team_uid = m.home_uid, m.xg_home, m.xg_away)), 2) AS avg_team_xG,
     COUNT(DISTINCT o.match_uid) AS matches_played,
@@ -18,12 +22,12 @@ WHERE
     AND o.match_uid IN (
         SELECT match_uid
         FROM match_outfield_stats
-        WHERE player = "Ivan Toney"
+        WHERE player = @player_name
     )
 UNION ALL
--- Matches where Ivan Toney did not play
+-- Matches where Player did not play
 SELECT 
-    'Without Ivan Toney' AS player_status,
+    'Without Player' AS player_status,
     ROUND(AVG(o.xG), 2) AS avg_player_xG,
     ROUND(AVG(IF(o.team_uid = m.home_uid, m.xg_home, m.xg_away)), 2) AS avg_team_xG,
     COUNT(DISTINCT o.match_uid) AS matches_played,
@@ -41,7 +45,7 @@ WHERE
     AND o.match_uid NOT IN (
         SELECT match_uid
         FROM match_outfield_stats
-        WHERE player = "Ivan Toney"
+        WHERE player = @player_name
     );
 
 
